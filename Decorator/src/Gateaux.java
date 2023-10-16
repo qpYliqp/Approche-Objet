@@ -1,11 +1,5 @@
-public abstract class Gateaux {
-
-    protected String description;
-
-
-
-    public String getDescription(){
-        return this.description;
-    }
+public interface Gateaux {
+    
+    public String getDescription();
 
 }

@@ -1,17 +1,17 @@
 import java.util.concurrent.ExecutionException;
 
-public class Tartes extends Gateaux{
+public class Tartes implements Gateaux{
+    public boolean base = false;
+    @Override
+    public String getDescription() {
 
-    public Tartes() throws Exception
-    {
-        this.description = "Patisserie : Tarte";
-        if(getDescription().contains("chocolat"))
+        if(!this.base)
         {
-            throw new IllegalArgumentException("Chocolat");
+            throw new IllegalArgumentException("Les tartes doit être soit à la pomme, soit à l'abricot");
         }
-        else
-        {
-            System.out.println("Je ne vois pas le chocolat");
-        }
+        return "Plat : Tarte";
+
     }
+
+
 }

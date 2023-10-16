@@ -1,4 +1,4 @@
-public abstract class Ingredients extends Gateaux {
+public class Ingredients implements Gateaux{
 
     protected Gateaux gateau;
 
@@ -8,5 +8,10 @@ public abstract class Ingredients extends Gateaux {
         this.gateau = gateau;
 
     }
-    public abstract String getDescription();
+    public  String getDescription()
+    {
+        return gateau.getDescription();
+    };
+
+
 }
