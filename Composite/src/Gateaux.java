@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public abstract class Gateaux {
+public abstract class Gateaux implements Ingredients{
 
    ArrayList<Ingredients> ingredients = new ArrayList<Ingredients>();
    protected String name;
@@ -15,13 +15,15 @@ public abstract class Gateaux {
       return ingredients.get(index);
    }
 
-   public void Afficher()
+   @Override
+   public String getDescription()
    {
-      System.out.println("Gateaux : " + this.name +"\n Ingredients :" );
+      String result = name;
       for(Ingredients ingredient : ingredients)
       {
-         System.out.println(" " + ingredient.description);
+         result += ingredient.getDescription();
       }
+      return result;
    }
 
     

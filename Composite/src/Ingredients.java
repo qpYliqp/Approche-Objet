@@ -1,12 +1,7 @@
 import java.util.ArrayList;
 
-public abstract class Ingredients {
+public interface Ingredients {
 
-    String description;
-
-    public Ingredients()
-    {
-
-    }
+    public String getDescription();
 
 }

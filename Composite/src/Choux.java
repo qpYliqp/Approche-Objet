@@ -1,6 +1,6 @@
-public class Tartes extends Gateaux{
+public class Choux extends Gateaux{
 
-    public Tartes()
+    public Choux()
     {
         this.name = "Tarte";
     }
@@ -17,6 +17,4 @@ public class Tartes extends Gateaux{
 
         }
     }
-
-
 }
