@@ -14,6 +14,8 @@ public class Patissier {
     public void constructGateau()
     {
         this.gateauxBuilder.Creation();
+        this.gateauxBuilder.setBase();
+        this.gateauxBuilder.setTopping();
     }
     public static void main(String[] args) {
 

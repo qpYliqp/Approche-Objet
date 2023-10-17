@@ -8,4 +8,8 @@ public Gateaux getGateaux()
 
 public abstract void Creation();
 
+public abstract void setBase();
+
+public abstract void setTopping();
+
 }
