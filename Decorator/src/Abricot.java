@@ -6,6 +6,6 @@ public class Abricot extends Ingredients {
 
     @Override
     public String getDescription() {
-        return gateau.getDescription() + "aux abricots";
+        return gateau.getDescription() + ", abricots";
     }
 }

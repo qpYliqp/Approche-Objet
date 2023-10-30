@@ -1,7 +1,8 @@
 public class TarteAbricotMeringue extends GateauxFactory {
     @Override
-    public void Creation() {
+    public Gateaux Creation() {
         gateaux = new Abricot(new Meringue(new Tartes()));
+        return gateaux;
     }
 
 }

@@ -5,7 +5,7 @@ public abstract class GateauxFactory {
         return this.gateaux;
     }
 
-    public abstract void Creation();
+    public abstract Gateaux Creation();
 
 
 }

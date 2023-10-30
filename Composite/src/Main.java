@@ -7,7 +7,7 @@ public class Main {
     Gateaux tarte = new Tartes();
     tarte.addIngredient(choc);
     tarte.addIngredient(chant);
-    System.out.println(tarte.getDescription());
+    System.out.println("\n\n\n"+tarte.getDescription()+"\n\n\n");
 
 
     }

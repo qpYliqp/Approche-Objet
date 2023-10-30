@@ -24,7 +24,7 @@ public class Patissier {
         p.setGateauxBuilder(gb);
         p.constructGateau();
         Gateaux g = p.getGateaux();
-        System.out.println(g.getDescription());
+        System.out.println("\n\n\n"+g.getDescription()+"\n\n\n");
 
     }
 
